@@ -21,6 +21,7 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 
 import io.github.maropu.lljvm.*;
+import io.github.maropu.lljvm.runtime.*;
 
 public class LLJVMExample {
 
@@ -41,6 +42,9 @@ public class LLJVMExample {
 
   public static void main(String args[]) {
     try {
+      // Initialize LLJVM runtime first
+      LLJVMRuntime.initialize();
+
       // `test.bc` is LLVM bitcode compiled from C code below;
       //
       // $ cat test.c

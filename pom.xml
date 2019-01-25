@@ -43,7 +43,7 @@
     <dependency>
       <groupId>io.github.maropu</groupId>
       <artifactId>lljvm-core</artifactId>
-      <version>0.1.0-EXPERIMENTAL</version>
+      <version>0.2.0-EXPERIMENTAL</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
